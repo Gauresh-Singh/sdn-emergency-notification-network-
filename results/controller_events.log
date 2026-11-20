@@ -1,0 +1,68 @@
+[2026-11-12 17:05:38.260] Controller started | SDN Priority Mode: ON (Dynamic Port 9999 Priority Active)
+[2026-11-12 17:05:50.561] Warning: Could not attach OVS QoS queues (Command '['ovs-vsctl', 'list-ports', 's1']' returned non-zero exit status 1.); using OpenFlow flow priority only.
+[2026-11-12 17:08:44.886] DYNAMIC PRIORITY RULE INSTALLED | flow=10.0.0.2->10.0.0.1 UDP dst_port=9000 | OF_Priority=100 | Queue=0 (HIGH)
+[2026-11-12 17:08:46.933] DYNAMIC PRIORITY RULE INSTALLED | flow=10.0.0.1->10.0.0.2 UDP dst_port=9999 | OF_Priority=100 | Queue=0 (HIGH)
+[2026-11-12 17:08:47.106] DYNAMIC PRIORITY RULE INSTALLED | flow=10.0.0.3->10.0.0.1 UDP dst_port=9000 | OF_Priority=100 | Queue=0 (HIGH)
+[2026-11-12 17:08:47.126] DYNAMIC PRIORITY RULE INSTALLED | flow=10.0.0.1->10.0.0.3 UDP dst_port=9999 | OF_Priority=100 | Queue=0 (HIGH)
+[2026-11-12 17:08:50.200] DYNAMIC PRIORITY RULE INSTALLED | flow=10.0.0.4->10.0.0.1 UDP dst_port=9000 | OF_Priority=100 | Queue=0 (HIGH)
+[2026-11-12 17:11:25.600] Controller started | SDN Priority Mode: OFF (Plain L2 Forwarding Only)
+[2026-11-12 17:12:08.454] SDN PRIORITY OFF | Emergency packet forwarded as normal traffic (10.0.0.2->10.0.0.1 port=9000) | OF_Priority=10
+[2026-11-12 17:12:15.467] SDN PRIORITY OFF | Emergency packet forwarded as normal traffic (10.0.0.3->10.0.0.1 port=9000) | OF_Priority=10
+[2026-11-12 17:12:23.062] SDN PRIORITY OFF | Emergency packet forwarded as normal traffic (10.0.0.4->10.0.0.1 port=9000) | OF_Priority=10
+[2026-11-12 17:16:02.494] Controller started | SDN Priority Mode: ON (Dynamic Port 9999 Priority Active)
+[2026-11-12 17:16:24.457] Warning: Could not attach OVS QoS queues (Command '['ovs-vsctl', 'list-ports', 's1']' returned non-zero exit status 1.); using OpenFlow flow priority only.
+[2026-11-12 17:16:43.268] DYNAMIC PRIORITY RULE INSTALLED | flow=10.0.0.2->10.0.0.1 UDP dst_port=9000 | OF_Priority=100 | Queue=0 (HIGH)
+[2026-11-12 17:16:51.977] DYNAMIC PRIORITY RULE INSTALLED | flow=10.0.0.3->10.0.0.1 UDP dst_port=9000 | OF_Priority=100 | Queue=0 (HIGH)
+[2026-11-12 17:17:05.067] DYNAMIC PRIORITY RULE INSTALLED | flow=10.0.0.4->10.0.0.1 UDP dst_port=9000 | OF_Priority=100 | Queue=0 (HIGH)
+[2026-11-17 08:37:12.657] Controller started | SDN Priority Mode: ON (Dynamic Port 9999 Priority Active)
+[2026-11-17 08:49:27.782] Controller started | SDN Priority Mode: ON (Dynamic Port 9999 Priority Active)
+[2026-11-17 08:49:51.549] Warning: Could not attach OVS QoS queues (Command '['ovs-vsctl', 'list-ports', 's1']' returned non-zero exit status 1.); using OpenFlow flow priority only.
+[2026-11-17 08:54:15.924] DYNAMIC PRIORITY RULE INSTALLED | flow=10.0.0.2->10.0.0.1 UDP dst_port=9000 | OF_Priority=100 | Queue=0 (HIGH)
+[2026-11-17 08:54:26.819] DYNAMIC PRIORITY RULE INSTALLED | flow=10.0.0.3->10.0.0.1 UDP dst_port=9000 | OF_Priority=100 | Queue=0 (HIGH)
+[2026-11-17 08:54:37.111] DYNAMIC PRIORITY RULE INSTALLED | flow=10.0.0.4->10.0.0.1 UDP dst_port=9000 | OF_Priority=100 | Queue=0 (HIGH)
+[2026-11-17 08:57:59.252] Controller started | SDN Priority Mode: ON (Dynamic Port 9999 Priority Active)
+[2026-11-17 08:58:40.495] Warning: Could not attach OVS QoS queues (Command '['ovs-vsctl', 'list-ports', 's1']' returned non-zero exit status 1.); using OpenFlow flow priority only.
+[2026-11-17 08:59:42.198] DYNAMIC PRIORITY RULE INSTALLED | flow=10.0.0.2->10.0.0.1 UDP dst_port=9000 | OF_Priority=100 | Queue=0 (HIGH)
+[2026-11-17 08:59:51.943] DYNAMIC PRIORITY RULE INSTALLED | flow=10.0.0.3->10.0.0.1 UDP dst_port=9000 | OF_Priority=100 | Queue=0 (HIGH)
+[2026-11-17 09:00:00.896] DYNAMIC PRIORITY RULE INSTALLED | flow=10.0.0.4->10.0.0.1 UDP dst_port=9000 | OF_Priority=100 | Queue=0 (HIGH)
+[2026-11-17 09:01:19.605] Controller started | SDN Priority Mode: ON (Dynamic Port 9999 Priority Active)
+[2026-11-17 09:02:05.027] Warning: Could not attach OVS QoS queues (Command '['ovs-vsctl', 'list-ports', 's1']' returned non-zero exit status 1.); using OpenFlow flow priority only.
+[2026-11-17 09:02:51.747] DYNAMIC PRIORITY RULE INSTALLED | flow=10.0.0.2->10.0.0.1 UDP dst_port=9000 | OF_Priority=100 | Queue=0 (HIGH)
+[2026-11-17 09:03:41.602] Warning: Could not attach OVS QoS queues (Command '['ovs-vsctl', 'list-ports', 's1']' returned non-zero exit status 1.); using OpenFlow flow priority only.
+[2026-11-17 09:04:24.866] DYNAMIC PRIORITY RULE INSTALLED | flow=10.0.0.2->10.0.0.1 UDP dst_port=9000 | OF_Priority=100 | Queue=0 (HIGH)
+[2026-11-17 09:04:36.155] DYNAMIC PRIORITY RULE INSTALLED | flow=10.0.0.3->10.0.0.1 UDP dst_port=9000 | OF_Priority=100 | Queue=0 (HIGH)
+[2026-11-17 09:04:46.752] DYNAMIC PRIORITY RULE INSTALLED | flow=10.0.0.4->10.0.0.1 UDP dst_port=9000 | OF_Priority=100 | Queue=0 (HIGH)
+[2026-11-17 09:05:52.988] DYNAMIC PRIORITY RULE INSTALLED | flow=10.0.0.2->10.0.0.1 UDP dst_port=9000 | OF_Priority=100 | Queue=0 (HIGH)
+[2026-11-17 09:05:55.257] DYNAMIC PRIORITY RULE INSTALLED | flow=10.0.0.3->10.0.0.1 UDP dst_port=9000 | OF_Priority=100 | Queue=0 (HIGH)
+[2026-11-17 09:05:55.589] DYNAMIC PRIORITY RULE INSTALLED | flow=10.0.0.1->10.0.0.2 UDP dst_port=9999 | OF_Priority=100 | Queue=0 (HIGH)
+[2026-11-17 09:05:55.591] DYNAMIC PRIORITY RULE INSTALLED | flow=10.0.0.1->10.0.0.3 UDP dst_port=9999 | OF_Priority=100 | Queue=0 (HIGH)
+[2026-11-17 09:05:58.014] DYNAMIC PRIORITY RULE INSTALLED | flow=10.0.0.4->10.0.0.1 UDP dst_port=9000 | OF_Priority=100 | Queue=0 (HIGH)
+[2026-11-17 09:07:37.400] DYNAMIC PRIORITY RULE INSTALLED | flow=10.0.0.2->10.0.0.1 UDP dst_port=9000 | OF_Priority=100 | Queue=0 (HIGH)
+[2026-11-17 09:07:50.871] DYNAMIC PRIORITY RULE INSTALLED | flow=10.0.0.3->10.0.0.1 UDP dst_port=9000 | OF_Priority=100 | Queue=0 (HIGH)
+[2026-11-17 09:08:12.241] DYNAMIC PRIORITY RULE INSTALLED | flow=10.0.0.4->10.0.0.1 UDP dst_port=9000 | OF_Priority=100 | Queue=0 (HIGH)
+[2026-11-17 09:09:58.213] DYNAMIC PRIORITY RULE INSTALLED | flow=10.0.0.2->10.0.0.1 UDP dst_port=9000 | OF_Priority=100 | Queue=0 (HIGH)
+[2026-11-17 09:09:58.899] DYNAMIC PRIORITY RULE INSTALLED | flow=10.0.0.1->10.0.0.2 UDP dst_port=9999 | OF_Priority=100 | Queue=0 (HIGH)
+[2026-11-17 09:10:50.222] Warning: Could not attach OVS QoS queues (Command '['ovs-vsctl', 'list-ports', 's1']' returned non-zero exit status 1.); using OpenFlow flow priority only.
+[2026-11-17 09:12:00.478] DYNAMIC PRIORITY RULE INSTALLED | flow=10.0.0.3->10.0.0.1 UDP dst_port=9000 | OF_Priority=100 | Queue=0 (HIGH)
+[2026-11-17 09:12:24.860] DYNAMIC PRIORITY RULE INSTALLED | flow=10.0.0.4->10.0.0.1 UDP dst_port=9000 | OF_Priority=100 | Queue=0 (HIGH)
+[2026-11-17 09:14:03.423] Warning: Could not attach OVS QoS queues (Command '['ovs-vsctl', 'list-ports', 's1']' returned non-zero exit status 1.); using OpenFlow flow priority only.
+[2026-11-17 09:15:16.668] DYNAMIC PRIORITY RULE INSTALLED | flow=10.0.0.2->10.0.0.1 UDP dst_port=9000 | OF_Priority=100 | Queue=0 (HIGH)
+[2026-11-17 09:15:33.290] DYNAMIC PRIORITY RULE INSTALLED | flow=10.0.0.3->10.0.0.1 UDP dst_port=9000 | OF_Priority=100 | Queue=0 (HIGH)
+[2026-11-17 09:15:48.458] DYNAMIC PRIORITY RULE INSTALLED | flow=10.0.0.4->10.0.0.1 UDP dst_port=9000 | OF_Priority=100 | Queue=0 (HIGH)
+[2026-11-17 09:16:36.775] DYNAMIC PRIORITY RULE INSTALLED | flow=10.0.0.2->10.0.0.1 UDP dst_port=9000 | OF_Priority=100 | Queue=0 (HIGH)
+[2026-11-17 09:16:39.048] DYNAMIC PRIORITY RULE INSTALLED | flow=10.0.0.1->10.0.0.2 UDP dst_port=9999 | OF_Priority=100 | Queue=0 (HIGH)
+[2026-11-17 09:16:39.455] DYNAMIC PRIORITY RULE INSTALLED | flow=10.0.0.3->10.0.0.1 UDP dst_port=9000 | OF_Priority=100 | Queue=0 (HIGH)
+[2026-11-19 02:49:24.521] Controller started | SDN Priority Mode: ON (Dynamic Port 9999 Priority Active)
+[2026-11-19 02:49:24.914] Warning: Could not attach OVS QoS queues (Command '['ovs-vsctl', 'list-ports', 's1']' returned non-zero exit status 1.); using OpenFlow flow priority only.
+[2026-11-19 02:53:28.184] Controller started | SDN Priority Mode: ON (Dynamic Port 9999 Priority Active)
+[2026-11-19 02:53:57.343] Warning: Could not attach OVS QoS queues (Command '['ovs-vsctl', 'list-ports', 's1']' returned non-zero exit status 1.); using OpenFlow flow priority only.
+[2026-11-19 02:54:40.863] DYNAMIC PRIORITY RULE INSTALLED | flow=10.0.0.2->10.0.0.1 UDP dst_port=9000 | OF_Priority=100 | Queue=0 (HIGH)
+[2026-11-19 02:54:49.815] DYNAMIC PRIORITY RULE INSTALLED | flow=10.0.0.3->10.0.0.1 UDP dst_port=9000 | OF_Priority=100 | Queue=0 (HIGH)
+[2026-11-19 02:55:00.229] DYNAMIC PRIORITY RULE INSTALLED | flow=10.0.0.4->10.0.0.1 UDP dst_port=9000 | OF_Priority=100 | Queue=0 (HIGH)
+[2026-11-19 02:56:30.639] DYNAMIC PRIORITY RULE INSTALLED | flow=10.0.0.2->10.0.0.1 UDP dst_port=9000 | OF_Priority=100 | Queue=0 (HIGH)
+[2026-11-19 02:56:32.740] DYNAMIC PRIORITY RULE INSTALLED | flow=10.0.0.3->10.0.0.1 UDP dst_port=9000 | OF_Priority=100 | Queue=0 (HIGH)
+[2026-11-19 02:56:33.847] DYNAMIC PRIORITY RULE INSTALLED | flow=10.0.0.1->10.0.0.2 UDP dst_port=9999 | OF_Priority=100 | Queue=0 (HIGH)
+[2026-11-19 02:56:33.856] DYNAMIC PRIORITY RULE INSTALLED | flow=10.0.0.1->10.0.0.3 UDP dst_port=9999 | OF_Priority=100 | Queue=0 (HIGH)
+[2026-11-19 02:56:36.704] DYNAMIC PRIORITY RULE INSTALLED | flow=10.0.0.4->10.0.0.1 UDP dst_port=9000 | OF_Priority=100 | Queue=0 (HIGH)
+[2026-11-19 03:02:34.804] Controller started | SDN Priority Mode: OFF (Plain L2 Forwarding Only)
+[2026-11-19 03:03:46.401] SDN PRIORITY OFF | Emergency packet forwarded as normal traffic (10.0.0.4->10.0.0.1 port=9000) | OF_Priority=10

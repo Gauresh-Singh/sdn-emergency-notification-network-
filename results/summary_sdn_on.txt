@@ -1,0 +1,9 @@
+
+========================================
+BENCHMARK SUMMARY [SDN_ON]
+Total Emergency Packets Sent : 20
+Total ACKed Delivered        : 20
+Packet Loss (%)              : 0.0%
+Average Latency (ms)         : 16.06 ms
+Saved CSV Log                : results/server_sdn_on_log.csv
+========================================

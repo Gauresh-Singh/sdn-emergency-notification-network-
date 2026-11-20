@@ -1,0 +1,2 @@
+timestamp,client_id,msg_id,type,event,content
+2026-11-19 03:03:32.718,10.0.0.3,0,CONTROL,REGISTER_SENT,Server 10.0.0.1
